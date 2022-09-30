@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+}
+  
+  ul li
+  {
+    width: 110px;
+    
+    display: block;
+    text-align: center;
+  
+  }
+ 
+ 
+  #info
+  {
+    display: inline-table;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+
+  }
+
+  #content
+  {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: Garamond;
+     font-size: 60px;
+    font-weight: bold;
+    display: table;
+     background: rgba(0, 0, 0, 0.5);
+     position: relative;
+
+  }
+  .sticky-top.scrolled {
+  background-color: #dc3545 !important;
+  transition: background-color 200ms linear;
+
+}
+
+#loginModal{
+
+    
+      margin-left: 40%;
+      margin-top: 10%;
+      width: 400px;
+     
+}
+#signupModal{
+
+    
+      margin-left: 40%;
+      margin-top: 10%;
+      width: 400px;
+     
+}
+
+#AddModal{
+
+    
+      margin-left: 40%;
+      margin-top: 10%;
+      width: 400px;
+     
+}
+
+#thankuModal{
+
+    
+      margin-left: 40%;
+      margin-top: 10%;
+      width: 400px;
+     
+}
+
+.signupform input[type=email],.signupform input[type=password],.signupform input[type=text]{
+
+position: relative;
+padding-left: 10px;
+outline: none;
+border-radius: 0;
+border:none;
+box-shadow: none;
+border-bottom: 2px solid gray;
+
+}
+
+.loginform input[type=email],.loginform input[type=password],.loginform input[type=text]{
+
+position: relative;
+padding-left: 10px;
+outline: none;
+border-radius: 0;
+border:none;
+box-shadow: none;
+border-bottom: 2px solid gray;
+
+}
+.loginform .input-group .form-control{
+  position: relative;
+  padding-left: 40px;
+
+}
+.loginform .input-group .fas{ 
+ position: absolute; 
+  top: 1rem;
+  left: 5px;
+  font-size: 19px;
+  color: gray;
+  z-index: 3;
+ 
+}
+.loginform input[type=email]:focus ,.loginform input[type=password]:focus{
+
+    position: relative;
+    padding-left: 40px;
+    outline: 0;
+    border-radius: 0;
+    border:none;
+    box-shadow:0;
+    border-color: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    transition: linear 0.4s;
+    
+
+}
+
+.loginform  input[type=email]:focus + .fas,.loginform input[type=password]:focus + .fas,
+input[type=text]:focus + .fas{
+  color: dodgerblue;
+  transition: all 0.4s;
+}
+
+.signupform input[type=email]:focus ,.signupform input[type=password]:focus,
+.signupform input[type=text]:focus{
+      position: relative;
+    padding-left: 10px;
+    outline: 0;
+    border-radius: 0;
+    border:none;
+    padding-left: 40px;
+    box-shadow:0;
+      border-color: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        border-bottom: 2px solid crimson;
+        transition: linear 0.4s;
+}
+.signupform input[type=email]:focus + .fas,input[type=password]:focus + .fas,
+input[type=text]:focus + .fas
+{
+  color: crimson;
+  transition: all 0.4s;
+}
+
+
+#passicon{
+    position: absolute;
+    font-size: x-large;
+    color: gray;
+    top:80px;
+    left: 20px;
+}
+
+#gallery{
+  display: table;
+  width: 100%;
+  color: black;
+  font-family: georgia;
+  text-align:center;
+  font-weight: bolder;
+  font-size: 32px;
+  height: auto;
+  background:rgba(0, 0, 0, 0.9) ;
+  opacity: 0.9;
+  color: white;
+
+}
+
+.items{
+  padding: 10px;
+  opacity: 0.8;
+}
+.items:hover{
+  padding: 10px;
+  opacity: 1;
+}
+#about{
+
+  width: 100%;
+  display: table;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font-family: gothlic;
+  font-style: italic;
+}
+#about-head{
+  display: inline-table;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#myCarousel{
+  width: 80%;
+}
+
+.carousel-item img{
+  display: inline-table;
+  align-self: center;
+}
+#restaurants{
+
+  width: 100%;
+  height: 500px;
+  display: table;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font-family: gothlic;
+  font-style: italic;
+}
+
+#restaurants h3{
+
+  width: 100%;
+  height: auto;
+  display: table;
+  text-align: center;
+  color: white;
+  font-family: gothlic;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#contact{
+
+  width: 100%;
+  height: 300px;
+  display: table;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  text-align: center;
+ 
+}
+
+#contact h3{
+
+
+  width: 100%;
+  height: auto;
+  display: table;
+  text-align: center;
+  color: white;
+  
+}
+
+.signupform .input-group .form-control{
+  position: relative;
+  padding-left: 40px;
+
+}
+.signupform .input-group .fas{ 
+    position: absolute;
+    top: 0.7rem;
+    left: 5px;
+    font-size: 19px;
+    color: gray;
+    z-index: 3;
+ 
+}
+
+ #menu_content
+  {
+    width: 100%;
+    height: auto;
+    font-style: italic;
+    text-align: center;
+    font-family: Garamond;
+     font-size: 60px;
+    font-weight: bold;
+    display: table;
+    
+
+  }
+
+.nav-item .dropdown-menu a:hover{
+
+  color: blue;
+  
+}
+
+.menu-items{
+
+   width: 100px;
+    position: relative;
+    padding : 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.menu-items:hover {
+
+
+    /** default is 1, scale it to 1.5 */
+    transform: scale(1.1, 1.1);
+
+    /** translate 50px from left, and 40px from top */
+    /** transform: translate(50px, 40px); */
+
+    /** combine both scale and translate */
+    /** transform: scale(1.5, 1.5) translate(50px, 40px); */
+}
+
+.sub-menu-items {
+  
+  font-style:none;
+  padding: 10px;
+
+}
+
+.img-container{
+
+  padding: 12px;
+
+}
+
+
+  #message { 
+        display:none; 
+        font-size:15px; 
+        font-weight:bold; 
+        color:#333333; 
+        position: absolute;
+    } 
+
+#cartmsg { 
+        display:none; 
+        font-size:15px; 
+        font-weight:bold; 
+        color:#333333; 
+        position: absolute;
+    } 
+
+    #cart_msg { 
+        display:none; 
+        font-size:15px; 
+        font-weight:bold; 
+        color:#333333; 
+        position: absolute;
+    } 
+
+    #add1{
+
+
+    }
+
+   
+   
